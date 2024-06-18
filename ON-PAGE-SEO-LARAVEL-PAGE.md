@@ -19,7 +19,6 @@ We need to ensure that the chosen keywords are placed on our page and make sense
 [***Keyword Placement Guide***](https://b2bdigitalmarketers.com/blog/keyword-placement/ "Guide")
 
 
-
 ### 2\. Title Tag Optimization -
 
 We have to ensure each page has a unique title tag after seeing what our top competitors are writing after verifying from Google.
@@ -123,20 +122,94 @@ As Google doesn't read images so if we describe them with image alt text it help
 
 ### 8\. Schema Markup
 
-Structured Data: Implement structured data markup to enhance search engine understanding and improve rich snippets.
+Schema markup is a type of code added to web pages to help search engines understand and display content more effectively. It uses structured data to describe various types of content (like products, articles, events) and their relationships, which can lead to richer search results and better user engagement.
 
-- Preferred Schema -
-  1. WebPage
-  2. Rating & Reviews
-  3. FAQPage (already embedded)
+#### Preferred Schema -
 
-**We have taken this data after analyzing our competitors -**
+- **Breadcrumbs**
 
-![**Image link**](https://img-v1.dev.getdemo.dev/screenshot/MU2MHsghoC.png)
+Breadcrumbs in SEO are a navigational aid showing the path from the homepage to the current page, displayed as clickable links (e.g., Home > Category > Subcategory > Product). They enhance user navigation, provide context to search engines about site structure, and improve overall SEO by facilitating easier crawling and understanding of site hierarchy.
+
+![Image link](https://img-v1.dev.getdemo.dev/screenshot/chrome_0Yxla01x3W.png)
+
+Implementing the Breadcrumbs schema in SEO improves user navigation by clearly showing the path within a website's hierarchy. It reduces bounce rates, enhances site usability, helps search engines understand site structure, and potentially improves sitelinks in search results, boosting overall visibility and click-through rates.
+
+-  **Rating & Reviews**
+
+The Rating & Reviews schema from Schema.org provides a standardized way to represent ratings and reviews on websites.
+![Image Link](https://img-v1.dev.getdemo.dev/screenshot/chrome_G6iy52B7l4.png)
+
+Implementing the Rating & Reviews schema enhances SEO by improving search visibility with rich snippets, boosting rankings, increasing click-through rates, and building user trust.
+
+-  **FAQPage (already embedded)**
+
+The FAQ schema is a structured data markup defined by Schema.org that helps search engines display Frequently Asked Questions (FAQs) directly in search results. It consists of questions and corresponding answers, making content more visible and user-friendly. Implementing this schema can enhance search visibility with rich snippets, improve user experience by providing quick answers, increase click-through rates, and optimize content for voice search.
+
+![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_JlPib2QX3P.png)
+
+The FAQ schema boosts SEO by enhancing search visibility with rich snippets, providing quick answers, improving user experience, increasing click-through rates, and optimizing content for voice search.
+
+- **Sitelinks search box**
+
+The Sitelinks Search Box in SEO is a feature in Google search results that lets users search directly within a website from the SERP. It appears as a search box next to the site's name, offering quick access to specific content and enhancing user convenience. Websites enable this feature by implementing structured data markup (Schema.org's SearchAction schema) and meeting Google's eligibility criteria.
+
+![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_2mULN6GtJE.png)
+
+
+The Sitelinks Search Box in SEO allows users to search within a website directly from Google's search results page, improving user experience, increasing site visibility, and potentially boosting click-through rates. It requires structured data markup for implementation, enhancing search engine understanding of site content and structure.
 
 [***Schema Generator Tool***](https://technicalseo.com/tools/schema-markup-generator/)
 
-### 9\. Canonical Tags:
+### 9\. Rich Snippets
+
+Rich Snippets in SEO are enhanced search results that display additional information such as ratings, prices, and dates directly in search engine listings. They are generated using structured data markup on web pages, improving user understanding and potentially increasing click-through rates.
+
+#### Different Types of Rich Snippet
+
+- **Product Rich Snippets**
+
+Product rich snippets are useful if you have an e-commerce website. They provide more information to your potential customers about your products—like whether the product is currently in stock, its shipping information, and its price.
+
+![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_35OvIyv7ab.png)
+
+- **Recipe Rich Snippets**
+
+Recipe rich snippets give more information about the recipe on the page, such as how long it takes to prepare, its ingredients, and reviews.
+
+![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_8nNPaVo1Va.png)
+
+- **Event Rich Snippets**
+
+Event snippets highlight the date and location of your events. They’re useful if you have ticketed events like concerts or shows.
+
+![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_Ouhk0VAjgT.png)
+
+- **Article Rich Snippets**
+
+To mark up your content, you need to use a structured data type called “Articles.” With its help you can easily add additional details such as headline, URL, short description, images, and publish date to your search results.
+
+![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_2udIWF9dlQ.png)
+
+- **Local business Rich Snippets**
+
+With local business markup, you'll have an opportunity to present your company in the most fascinating way. Google demonstrates reviews, details about working hours and different departments within a business. This snippet will help your website appear in the most relevant local search results.
+
+![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_Y4nUDihgDv.png)
+
+- **Organization Rich Snippets**
+
+Organization schema markup is a code that you can put on your website to provide search engines with detailed information about your organization. This can include details like the organization's name, address, phone number, and logo.
+
+![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_ftEfPGugxo.png)
+
+- **Video Rich Snippet**
+  A video rich snippet is a special kind of snippet, which makes video appear in search results by means of structured markup.
+
+![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_M435gOzoiW.png)
+
+To Know More About Snippets Explore [***Google Structure Data Doc***](https://developers.google.com/search/docs/appearance/structured-data/search-gallery)
+
+### 10\. Canonical Tags
 
 A canonical tag, also known as a canonical link or "rel canonical," is a tag in the source code of a page that indicates to search engines that a master copy of the page exists. Canonical tags are used in SEO to help search engines index the correct URL and avoid duplicate content.
 
@@ -146,6 +219,60 @@ Use canonical tags to prevent duplicate content issues.
 
 [***Canonical Link Idea***](https://ahrefs.com/blog/canonical-tags/)
 
+
+
+## Navigating SGE and GEO: Optimize Your Web Presence Effectively
+
+### What is Google's Search Generative Experience (SGE)
+
+As [announced on May 14th](https://searchengineland.com/google-rolls-out-ai-overviews-in-us-with-more-countries-coming-soon-440418), Google began rolling out AI Overviews to US-based searchers first, shortly followed by other countries.
+
+Originally introduced as a part of the Google Search Labs experiment, [Search Generative Experience](https://www.seoclarity.net/blog/googles-search-generative-experience-preparation-guide) (SGE), that users had to opt into, it will be available to over a billion searchers by the end of 2024.
+
+#### How Do Google AI Overview Work?
+
+##### Query Processing
+When you type in a query, the AI processes your words and generates a text response, similar to how ChatGPT functions.
+##### Document Selection
+Google’s algorithm then selects a small group of relevant web pages that contain information related to the generated response.
+
+- **Here is a GIF of how AI Overviews look in Google Search**
+
+![Example GIF](https://searchengineland.com/wp-content/seloads/2024/05/AI-Overviews-Sofa.gif)
+
+You won’t see AI Overviews for all your searches. AI Overviews are reserved to answer more complex questions where Google feels it can add value beyond the search results. If AI Overview doesn’t add value to what Google Search shows by default, Google will not show an AI Overview.
+
+#### How to Optimize Content for SGE:
+
+To optimize for Google's SGE: focus on EAT (Expertise, Authoritativeness, Trustworthiness), conduct keyword research, organize content well, ensure mobile-friendliness, use descriptive meta tags and alt text, employ internal linking, update content regularly, and secure your site with HTTPS.
+
+Learn More with [***Google AI Overviews Optimization Insights & Tips***](https://seo.ai/blog/google-ai-overviews-optimization) by seo.ai and [***How to prepare for Google SGE***](https://searchengineland.com/prepare-google-sge-tips-seo-success-433083) by searchengineland
+
+### What is Generative Engine Optimization (GEO)
+
+- Definition: The adaptation of content optimization strategies to align with the capabilities and expectations of AI-driven search engines. GEO combines traditional SEO techniques with an understanding of how generative AI models process and prioritize content.
+- Era: Represents a more recent phase, acknowledging the significant role of AI in shaping search experiences and the necessity for content to be optimized for these AI-driven environments.
+- Objective: To ensure content is discovered, accurately interpreted and favorably ranked by AI-enhanced search engines.
+
+**Here is a GIF of how AI Overviews look in Google Search**
+
+![Example GIF](https://miro.medium.com/v2/resize:fit:1200/1*3wOhdBeussNhEPRq5Z9Peg.gif)
+
+It might be helpful to further drill down on the differences between Search Engine Optimization, Search Generative Experience and Generative Engine Optimization:
+
+![image](https://www.singlegrain.com/wp-content/uploads/2024/02/image2-7.png)
+
+In a nutshell, you could say that:
+
+From SEO to SGE: This transition reflects a shift from purely algorithmic search optimization towards enhancing the search experience with AI, focusing on user interaction and satisfaction.
+
+From SGE to GEO: This step acknowledges the pervasive influence of AI on search technologies, necessitating a new approach to content optimization that goes beyond traditional SEO to include AI-specific considerations.
+
+#### **How to Optimize for GEO:**
+
+Optimizing on-page SEO for Generative Engine Optimization (GEO) involves creating high-quality, keyword-rich content that aligns with user intent. Use structured data markup for better search engine understanding, optimize title tags, meta descriptions, and header tags with targeted keywords, and ensure URLs are concise and descriptive. Improve user experience with fast page speed, mobile-friendliness, and effective internal linking. Optimize images with descriptive tags and regularly update content while maintaining website security with HTTPS. These tactics enhance your site's visibility and relevance in search engine results.
+
+Learn more about (GEO) with [***Generative Engine Optimization (GEO)***](https://www.singlegrain.com/blog/ms/generative-engine-optimization/) by singlegrain and [***Techniques for Optimizing  GEO***](https://seo.ai/blog/generative-engine-optimization-geo-vs-search-engine-optimization-seo) by marketmymarket
 
 #### **Conclusion**
 
