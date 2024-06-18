@@ -142,11 +142,9 @@ A canonical tag, also known as a canonical link or "rel canonical," is a tag in 
 
 Use canonical tags to prevent duplicate content issues.
 
-Formula for Canonical Tags -
-$` <link rel="canonical" href="https://www.example.com/preferred-page"/> `$
-
 [***Blog Reference***](https://en.ryte.com/wiki/Canonical_Tag)
 
+[***Canonical Link Idea***](https://ahrefs.com/blog/canonical-tags/)
 
 
 #### **Conclusion**
