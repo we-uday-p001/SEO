@@ -203,6 +203,7 @@ Organization schema markup is a code that you can put on your website to provide
 ![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_ftEfPGugxo.png)
 
 - **Video Rich Snippet**
+
   A video rich snippet is a special kind of snippet, which makes video appear in search results by means of structured markup.
 
 ![image](https://img-v1.dev.getdemo.dev/screenshot/chrome_M435gOzoiW.png)
@@ -277,5 +278,3 @@ Learn more about (GEO) with [***Generative Engine Optimization (GEO)***](https:/
 #### **Conclusion**
 
 If we follow this approach it ensures a comprehensive approach to on-page SEO, covering all critical aspects to enhance search engine rankings and user experience.
-
-
